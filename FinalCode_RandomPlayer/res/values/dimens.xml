@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LinearLayout_height">140sp</dimen>
+
+    <dimen name="text_textSize">20sp</dimen>
+
+    <dimen name="edit01_width">50dp</dimen>
+
+    <dimen name="button02_textSize">20sp</dimen>
+
+    <dimen name="info_textSize">25sp</dimen>
+
+    <dimen name="punish_title_textSize">30sp</dimen>
+
+    <dimen name="padding_size">15sp</dimen>
+
+</resources>

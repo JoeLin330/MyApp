@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008800"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <Button
+            android:id="@+id/restart_button"
+            style="@style/items_style"
+            android:background="@drawable/ic_restart" />
+
+        <Button
+            android:id="@+id/plus_button"
+            style="@style/items_style"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_plus" />
+
+        <Button
+            android:id="@+id/questionmark_button"
+            style="@style/items_style"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_questionmark" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/LinearLayout_height"
+        android:background="@drawable/ic_c4">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp">
+
+            <Button
+                android:id="@+id/confirm_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_alignBottom="@+id/number_edit"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/ic_bomb" />
+
+            <EditText
+                android:id="@+id/number_edit"
+                android:layout_width="@dimen/edit01_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="77dp"
+                android:layout_marginTop="24dp"
+                android:layout_toStartOf="@+id/confirm_button"
+                android:inputType="number"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_size">
+
+        <TextView
+            android:id="@+id/punish_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/punishtitle_background"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textSize="@dimen/punish_title_textSize"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/padding_size"
+        android:paddingLeft="@dimen/padding_size"
+        android:paddingRight="@dimen/padding_size">
+
+        <Button
+            android:id="@+id/bepunishers_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/info_button_background"
+            android:layout_alignBottom="@+id/info"
+            android:onClick="BepunisherButton"
+            android:text="@string/bePunisher_button"
+            android:textSize="@dimen/button02_textSize"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/info_textview_background"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textSize="@dimen/info_textSize"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

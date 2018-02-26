@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="punish_text">
+        <item>伏地挺身</item>
+        <item>交互蹲跳</item>
+        <item>仰臥起坐</item>
+        <item>操場</item>
+        <item>棒式</item>
+    </string-array>
+
+    <string-array name="luckyCard">
+        <item>Pass卡</item>
+        <item>迴轉卡</item>
+    </string-array>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/third_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#AAA"
+        android:text="本日戰績"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#A12"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:layout_span="1"
+                android:text="伏地挺身"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/times01"
+                android:layout_span="1"
+                android:text="0"
+                android:textSize="30dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_span="1"
+                android:text="下"
+                android:textSize="30dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_span="1"
+                android:text="交互蹲跳"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/times02"
+                android:layout_span="1"
+                android:text="0"
+                android:textSize="30dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_span="1"
+                android:text="下"
+                android:textSize="30dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_span="1"
+                android:text="仰臥起坐"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/times03"
+                android:layout_span="1"
+                android:text="0"
+                android:textSize="30dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_span="1"
+                android:text="下"
+                android:textSize="30dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_span="1"
+                android:text="操場"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/times04"
+                android:layout_span="1"
+                android:text="0"
+                android:textSize="30dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_span="1"
+                android:text="公尺"
+                android:textSize="30dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_span="1"
+                android:text="棒式"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/times05"
+                android:layout_span="1"
+                android:text="0"
+                android:textSize="30dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_span="1"
+                android:text="秒"
+                android:textSize="30dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1">
+        <TableRow>
+
+            <Button
+                android:id="@+id/button05"
+                android:layout_span="1"
+                android:text="離開"
+                android:textSize="20dp"
+                android:onClick="clickButton05"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
